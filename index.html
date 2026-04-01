@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Digitale - Solutions Numériques Innovantes</title>
+    <meta name="description" content="Agence digitale spécialisée dans la création de sites web, applications mobiles et stratégie digitale.">
+
+    <!-- Tailwind CSS via CDN pour un design moderne et responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo: À MODIFIER AVEC VOTRE NOM/LOGO -->
+                <div class="text-2xl font-bold text-blue-600">
+                    Belhaj Mohamed
+                </div>
+
+                <!-- Menu Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="#accueil" class="text-gray-700 hover:text-blue-600 transition">Accueil</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+                    <a href="#portfolio" class="text-gray-700 hover:text-blue-600 transition">Portfolio</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                </div>
+
+                <!-- Bouton CTA -->
+                <button class="hidden md:inline bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">
+                    Démarrer
+                </button>
+
+                <!-- Menu Mobile (simple) -->
+                <div class="md:hidden">
+                    <button class="text-gray-700 text-2xl">☰</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="accueil" class="pt-32 pb-20 px-4 bg-gradient-to-r from-blue-50 to-indigo-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+                <!-- Texte Hero -->
+                <div>
+                    <h1 class="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                        Transformez votre <span class="text-blue-600">présence digitale</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 mb-8 leading-relaxed">
+                        Créons ensemble des solutions numériques innovantes qui propulsent votre entreprise vers le succès. Sites web, applications mobiles, stratégie digitale.
+                    </p>
+
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition transform hover:scale-105">
+                            Démarrer votre projet
+                        </button>
+                        <button class="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition">
+                            En savoir plus
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Image/Illustration Hero (à remplacer avec votre image) -->
+                <div class="bg-gradient-to-br from-blue-400 to-indigo-600 rounded-2xl h-96 flex items-center justify-center shadow-2xl">
+                    <div class="text-6xl text-white">💡</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section id="services" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Nos Services</h2>
+                <p class="text-xl text-gray-600">Des solutions complètes pour votre transformation digitale</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Service 1 -->
+                <div class="bg-blue-50 p-8 rounded-xl hover:shadow-xl transition transform hover:-translate-y-2">
+                    <div class="text-5xl mb-4">🌐</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Sites Web Modernes</h3>
+                    <p class="text-gray-600">Créations modernes, responsive et optimisées pour Google. Designs épurés qui convertissent.</p>
+                    <!-- À MODIFIER: Ajouter votre description -->
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-indigo-50 p-8 rounded-xl hover:shadow-xl transition transform hover:-translate-y-2">
+                    <div class="text-5xl mb-4">📱</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Applications Mobiles</h3>
+                    <p class="text-gray-600">Applications iOS et Android performantes. Une expérience utilisateur exceptionnelle sur tous les appareils.</p>
+                    <!-- À MODIFIER: Ajouter votre description -->
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-purple-50 p-8 rounded-xl hover:shadow-xl transition transform hover:-translate-y-2">
+                    <div class="text-5xl mb-4">📊</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Stratégie Digitale</h3>
+                    <p class="text-gray-600">Audit, stratégie et consultation pour maximiser votre impact online et vos conversions.</p>
+                    <!-- À MODIFIER: Ajouter votre description -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFOLIO / PROJETS ========== -->
+    <section id="portfolio" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Nos Réalisations</h2>
+                <p class="text-xl text-gray-600">Découvrez nos derniers projets</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Projet 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+                    <div class="bg-gradient-to-r from-blue-400 to-blue-600 h-48 flex items-center justify-center">
+                        <span class="text-6xl">🏢</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Projet E-commerce</h3>
+                        <p class="text-gray-600 mb-4">Plateforme e-commerce complète avec paiement intégré.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Voir le projet →</a>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+                    <div class="bg-gradient-to-r from-indigo-400 to-indigo-600 h-48 flex items-center justify-center">
+                        <span class="text-6xl">💼</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Site Corporate</h3>
+                        <p class="text-gray-600 mb-4">Site vitrine moderne pour une entreprise B2B.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Voir le projet →</a>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+                    <div class="bg-gradient-to-r from-purple-400 to-purple-600 h-48 flex items-center justify-center">
+                        <span class="text-6xl">📱</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Application Mobile</h3>
+                        <p class="text-gray-600 mb-4">Application SaaS avec dashboard avancé.</p>
+                        <a href="#" class="text-blue-600 font-semibold hover:underline">Voir le projet →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FORMULAIRE DE CONTACT ========== -->
+    <section id="contact" class="py-20 px-4 bg-gradient-to-r from-blue-600 to-indigo-600">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white mb-4">Parlons de votre projet</h2>
+                <p class="text-xl text-blue-100">Envoyez-nous un message et nous vous recontacterons rapidement.</p>
+            </div>
+
+            <!-- IMPORTANT: Formulaire sécurisé avec Formspree ou Web3Forms -->
+            <!-- À CONFIGURER: Remplacez "email@example.com" par votre email -->
+            <form class="bg-white rounded-xl p-8 shadow-2xl space-y-6">
+
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Votre nom</label>
+                    <input type="text" placeholder="Jean Dupont" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" required>
+                </div>
+
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Votre email</label>
+                    <input type="email" placeholder="you@example.com" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" required>
+                </div>
+
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Sujet</label>
+                    <input type="text" placeholder="Projet de refonte" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600" required>
+                </div>
+
+                <div>
+                    <label class="block text-gray-700 font-semibold mb-2">Message</label>
+                    <textarea placeholder="Décrivez votre projet..." rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-600 resize-none" required></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+                    Envoyer votre message
+                </button>
+            </form>
+
+            <!-- INFO SÉCURITÉ -->
+            <p class="text-center text-blue-100 text-sm mt-6">
+                ⚠️ <strong>Note sécurité:</strong> Ce formulaire doit être connecté à un service (Formspree, Web3Forms, etc.)
+                <br>Voir les instructions ci-dessous.
+            </p>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-gray-900 text-gray-300 py-12 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+
+                <!-- Infos Entreprise -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4">Belhaj Mohamed</h3>
+                    <p class="text-sm">Agence digitale spécialisée dans la création web et mobile.</p>
+                </div>
+
+                <!-- Liens Rapides -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Liens</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#accueil" class="hover:text-white transition">Accueil</a></li>
+                        <li><a href="#services" class="hover:text-white transition">Services</a></li>
+                        <li><a href="#portfolio" class="hover:text-white transition">Portfolio</a></li>
+                        <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-white transition">Sites Web</a></li>
+                        <li><a href="#" class="hover:text-white transition">Applications</a></li>
+                        <li><a href="#" class="hover:text-white transition">Stratégie</a></li>
+                        <li><a href="#" class="hover:text-white transition">Consulting</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Nous Contacter</h4>
+                    <p class="text-sm mb-2">📧 <a href="mailto:contact@example.com" class="hover:text-white transition">contact@example.com</a></p>
+                    <p class="text-sm mb-4">📱 <a href="tel:+33612345678" class="hover:text-white transition">+33 6 12 34 56 78</a></p>
+                    <!-- Réseaux sociaux -->
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-white transition">LinkedIn</a>
+                        <a href="#" class="hover:text-white transition">Twitter</a>
+                        <a href="#" class="hover:text-white transition">Instagram</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8 text-center text-sm">
+                <p>&copy; 2026 Belhaj Mohamed. Tous droits réservés. | <a href="#" class="hover:text-white">Mention légales</a> | <a href="#" class="hover:text-white">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== SCRIPT SIMPLE ========== -->
+    <script>
+        // Navigation smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

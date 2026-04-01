@@ -1,0 +1,43 @@
+# ========== SÉCURITÉ - NE JAMAIS POUSSER CES FICHIERS ==========
+
+# Variables d'environnement (clés API, tokens, mots de passe)
+.env
+.env.local
+.env.*.local
+
+# Fichiers de configuration sensibles
+config.json
+secrets.json
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+.gitkeep
+
+# Dossiers d'installation
+node_modules/
+venv/
+__pycache__/
+
+# Fichiers de build (si vous utilisez un bundler)
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers de test
+*.log
+coverage/
+
+# Firebase/Backend
+firebase-debug.log
+
+# Aucun fichier d'upload ou cache local
+uploads/
+cache/
+.cache/
